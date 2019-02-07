@@ -18,10 +18,12 @@ header {
 	position: fixed;
 	top: 0;
 	height: 40%;
-	padding: 0px 20px;
+	padding: 0px 45px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	z-index: 999;
+	background-color: #f2f2f2;
 
 }
 
@@ -142,7 +144,7 @@ i {
 
 footer {
     margin-top: 30px;
-    background-color: #ddd;
+    background-color: #f2f2f2;
     padding: 20px;
 }
 
