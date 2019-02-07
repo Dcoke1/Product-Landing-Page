@@ -1,0 +1,163 @@
+/**== Global Page Styling  ==**/
+#page-container {
+	position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+	display: block;
+}
+
+/**== Styling for Header and Nav bar items ===**/
+header {
+	position: fixed;
+	top: 0;
+	height: 40%;
+	padding: 0px 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+/**===Logo Styles ==**/
+.logo {
+	width: 60vw;
+}
+
+.logo img {
+	width: 100%;
+	height: 100%;
+	max-width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 15px;
+
+}
+
+/**== Nav Bar Styles ==**/
+nav ul {
+	width: 35vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+ul {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+a {
+	color: #00ace6;
+}
+
+.sub-container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#services {
+	margin-top: 300px;
+}
+
+.row {
+	display: flex;
+}
+
+#services .icon-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 125px;
+	width: 10vw;
+	color: #00ace6;
+}
+
+#services .subinfo {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+
+i {
+	size: 200px;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    margin-top: 10px;
+}
+
+#pricing h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+#pricing input[type="email"] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+#pricing input[type="submit"] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 2px solid;
+    border-color: #642D90;
+
+    }
+
+.btn {
+    padding: 0 20px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+footer ul li {
+    padding: 0 10px;
+}
+
+footer span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+    color: #444;
+}
