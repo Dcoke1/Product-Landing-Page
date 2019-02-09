@@ -273,3 +273,12 @@ footer {
     padding-top: 90px;
 }
 }
+
+@media only screen and (max-width: 812px) {
+  /* Phone L rotated sideways : */
+header {
+
+    padding: 65px 45px;
+
+}
+}
