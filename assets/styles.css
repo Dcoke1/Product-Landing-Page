@@ -180,12 +180,10 @@ footer span {
     margin-top: 200px;
     padding-left: 30px;
   }
-
 footer ul {
     display: flex;
     justify-content: center;
 }
-
 }
 
 @media only screen and (max-width: 425px) {
@@ -217,9 +215,7 @@ footer {
     margin: 0px;
     width: 450px;
 }
-
 }
-
 
 @media only screen and (max-width: 375px) {
   /* Phone M : */
@@ -276,5 +272,4 @@ footer {
     padding-left: 45px;
     padding-top: 90px;
 }
-
 }
