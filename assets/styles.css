@@ -41,7 +41,9 @@ header {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin-left: 15px;
+    width: 62vw;
+    margin-right: 2.5px;
+    margin-left: 0%;
 
 }
 
@@ -69,7 +71,7 @@ a {
 
 /**== Services and mid page styling ===**/
 .sub-container {
-    max-width: 1000px;
+    max-width: 960px;
     width: 100%;
     margin: 0 auto;
 }
@@ -106,6 +108,15 @@ i {
 	size: 200px;
 }
 
+.container {
+	width: 100%;
+}
+
+.container img {
+	border: 1px solid;
+	border-color: #642D90;
+}
+
 /**== Submit button and Input section styles ===**/
 #pricing {
     display: flex;
@@ -113,6 +124,7 @@ i {
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 100%;
     height: 400px;
     margin-top: 10px;
 }
@@ -174,18 +186,12 @@ footer span {
     color: #444;
 }
 
-/**--====================================Responsive Queries ===============================-----------------**/
+/**--================================Responsive Queries ===============================-----------------**/
 
 @media only screen and (min-width: 320px) {
 
 .nav-link {
 	font-size: 12px;
-}
-
-.logo img {
-    width: 45vw;
-    margin-right: 2.5px;
-    margin-left: -10px;
 }
 
 nav ul {
@@ -200,9 +206,10 @@ h2 {
 }
 
 #services {
-    width: 220px;
+    width: 100%;
     margin-top: 200px;
-    padding-left: 30px;  
+    padding-left: 10%;
+    padding-right: 10%;  
 }
 
 #services .icon-logo {
@@ -221,18 +228,16 @@ p {
 
 .carousel {
     position: relative;
-    margin-right: -20px;
 }
 
 .container {
-    padding-left: 15px;
+    padding-left: 2px;
     padding-top: 60px;
-    padding-right: 100px;
+    padding-right: 2px;
 }
 
 #pricing {
     margin-top: -80px;
-    margin-left: -75px;
     margin-bottom: -80px;
     font-size: 5;
     font-size: 5px;
@@ -262,12 +267,12 @@ a {
 }
 
 .logo img {
-    width: 40vw;
+    width: 56vw;
     margin-right: 3px;
 }
 
 #services {
-    width: 250px;
+    width: 100%;
     margin-top: 200px;
     padding-left: 30px;
 }
@@ -283,9 +288,8 @@ p {
 }
 
 .container {
-    padding-left: 20px;
+	width: 100%;
     padding-top: 30px;
-    padding-right: 110px;
 }
 
 
@@ -301,7 +305,7 @@ footer {
 @media only screen and (min-width: 400px) {
 
 .logo img {
-    width: 52vw;
+    width: 56vw;
     margin-right: -20px;
     margin-left: 0px;
     padding-left: 0px;
@@ -316,7 +320,7 @@ p {
 }
 
 #services {
-    width: 290px;
+    width: 100%;
     margin-top: 180px;
     padding-left: 40px;
 }
@@ -328,9 +332,10 @@ p {
 }
 
 .container {
-    padding-left: 25px;
+	width: 100%;
+    padding-left: 2px;
     padding-top: 30px;
-    padding-right: 135px;
+    padding-right: 2px;
 }
 
 nav ul {
