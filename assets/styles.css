@@ -18,7 +18,7 @@ header {
 	position: fixed;
 	width: 100%;
 	top: 0;
-	height: 30%;
+	height: 23%;
 	padding: 0px 45px;
 	display: flex;
 	justify-content: space-around;
@@ -28,7 +28,7 @@ header {
 
 }
 
-/**===Logo Styles ==**/
+/**===Logo Size ==**/
 .logo {
 	width: 58vw;
 }
@@ -42,12 +42,16 @@ header {
 	align-items: center;
 	text-align: center;
     width: 62vw;
-    margin-right: 2.5px;
-    margin-left: 0%;
+    margin-right: 1vw;
+    margin-left: 1vw;
 
 }
 
 /**== Nav Bar Styles ==**/
+#nav-bar {
+	margin-left: 10%; 
+}
+
 nav ul {
 	width: 35vw;
 	display: flex;
@@ -82,8 +86,10 @@ h2 {
 }
 
 #services {
-	width: 100%;
-	margin-top: 200px;
+    width: 100%;
+    margin-top: 15vw;
+    padding-left: 5%;
+    padding-right: 1%;  
 }
 
 .row {
@@ -94,8 +100,8 @@ h2 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    height: 52px;
-    width: 10vw;
+    height: 13%;
+    width: 12%;
 	color: #00ace6;
 }
 
@@ -196,6 +202,15 @@ footer span {
 
 /**--================================Responsive Queries ===============================-----------------**/
 
+@media only screen and (orientation: landscape) {
+  header {
+    height: 40%;
+  }
+  #services {
+  	margin-top: 24vw; 
+  }
+}
+
 @media only screen and (min-width: 320px) {
 
 .nav-link {
@@ -203,10 +218,7 @@ footer span {
 }
 
 nav ul {
-    width: 35vw;
-    display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 h2 {
@@ -215,14 +227,12 @@ h2 {
 
 #services {
     width: 100%;
-    margin-top: 200px;
-    padding-left: 10%;
-    padding-right: 10%;  
+    margin-top: 68vw;
+    padding-left: 30px;
 }
 
 #services .icon-logo {
-    height: 50px;
-    width: 12vw;
+	height: 13vw;
     font-size: 7px !important;
 }
 
@@ -270,28 +280,20 @@ a {
     width: 56vw;
     margin-right: 3px;
 }
-
 #services {
     width: 100%;
-    margin-top: 200px;
+    margin-top: 60vw;
     padding-left: 30px;
 }
 
 #services .icon-logo {
-    height: 35px;
-    width: 12vw;
-    font-size: 7px !important;
+	height: 9vw;
+    font-size: 8px !important;
 }
 
 p {
     font-size: 11px;
 }
-
-.container {
-	width: 100%;
-    padding-top: 30px;
-}
-
 
 a {
 	font-size: 12px;
@@ -304,11 +306,187 @@ footer {
 
 @media only screen and (min-width: 400px) {
 
+.nav-link {
+    font-size: 18px;
+}
+
 .logo img {
     width: 56vw;
     margin-right: -20px;
-    margin-left: 0px;
-    padding-left: 0px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+	font-size: 13px;
+}
+
+#services {
+    width: 100%;
+    margin-top: 55vw;
+    padding-left: 30px;
+}
+
+#services .icon-logo {
+	height: 6vw;
+    font-size: 9px !important;
+}
+
+footer {
+    font-size: 10px;
+}
+
+}
+
+@media only screen and (min-width: 470px) {
+
+.logo img {
+    width: 56vw;
+    margin-right: -20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+	font-size: 14px;
+}
+
+#services {
+    width: 100%;
+    margin-top: 45vw;
+    padding-left: 30px;
+}
+
+#services .icon-logo {
+	height: 6vw;
+    font-size: 10px !important;
+}
+
+footer {
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 570px) {
+
+.logo img {
+    width: 45vw;
+    margin-right: -20px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#services {
+    width: 100%;
+    margin-top: 40vw;
+    padding-left: 30px;
+}
+
+#services .icon-logo {
+    height: 0vw;
+    font-size: 14px !important;
+}
+
+#pricing input[type="email"] {
+    font-size: 8px;
+}
+
+#pricing input[type="submit"] {
+    font-size: 12px;
+}
+
+footer {
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 670px) {
+
+.logo img {
+    width: 45vw;
+    margin-right: -20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#services {
+    width: 100%;
+    margin-top: 32vw;
+    padding-left: 30px;
+}
+
+#services .icon-logo {
+    height: 5vw;
+    font-size: 14px !important;
+}
+
+footer {
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+
+.logo img {
+    width: 45vw;
+    margin-right: -20px;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#services {
+    width: 100%;
+    margin-top: 30vw;
+    padding-left: 30px;
+}
+
+#services .icon-logo {
+    height: 5vw;
+    font-size: 14px !important;
+}
+
+footer {
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 968px) {
+
+.logo img {
+    width: 45vw;
+    margin-right: -20px;
 }
 
 h2 {
@@ -321,32 +499,116 @@ p {
 
 #services {
     width: 100%;
-    margin-top: 180px;
-    padding-left: 40px;
+    margin-top: 25vw;
+    padding-left: 30px;
 }
 
 #services .icon-logo {
-    height: 20px;
-    width: 15vw;
-    font-size: 9px !important;
-}
-
-.container {
-	width: 100%;
-    padding-left: 2px;
-    padding-top: 30px;
-    padding-right: 2px;
-}
-
-nav ul {
-    width: 35vw;
+    height: 4vw;
+    font-size: 16px !important;
 }
 
 footer {
     font-size: 10px;
 }
 
+@media only screen and (min-width: 1024px) {
+
+.logo img {
+    width: 45vw;
+    margin-right: -20px;
 }
 
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 12px;
+}
+
+#services {
+    width: 100%;
+    margin-top: 25vw;
+    padding-left: 30px;
+}
+
+#services .icon-logo {
+    height: 4vw;
+    font-size: 14px !important;
+}
+
+footer {
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 1440px) {
+
+.logo img {
+    width: 45vw;
+    margin-right: -20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 12px;
+}
+
+#services {
+    width: 100%;
+    margin-top: 20vw;
+    padding-left: 30px;
+}
+
+#services .icon-logo {
+    height: 4vw;
+    font-size: 14px !important;
+}
+
+footer {
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 2560px) {
+
+.logo img {
+    width: 45vw;
+    margin-right: -20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 12px;
+}
+
+#services {
+    width: 100%;
+    margin-top: 10vw;
+    padding-left: 30px;
+}
+
+#services .icon-logo {
+    height: 4vw;
+    font-size: 14px !important;
+}
+
+footer {
+    font-size: 10px;
+}
+
+@media only screen and (orientation: landscape) {
+  header {
+    height: 40%;
+  }
+  #services {
+  	margin-top: 24vw !important; 
+  }
+}
 
 
