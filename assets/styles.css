@@ -70,6 +70,11 @@ a {
 }
 
 /**== Services and mid page styling ===**/
+h2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 .sub-container {
     max-width: 960px;
     width: 100%;
@@ -89,8 +94,8 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 125px;
-	width: 10vw;
+    height: 52px;
+    width: 10vw;
 	color: #00ace6;
 }
 
@@ -100,7 +105,6 @@ a {
     justify-content: center;
     height: 125px;
     width: 80vw;
-    padding: 5px;
 }
 
 /**== Icon Styles ===**/
@@ -110,6 +114,9 @@ i {
 
 .container {
 	width: 100%;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
 }
 
 .container img {
@@ -164,7 +171,6 @@ i {
 
 /**== Footer Navbar ===**/
 footer {
-    margin-top: 30px;
     background-color: #f2f2f2;
     padding: 20px;
     width: 100%;
@@ -173,6 +179,8 @@ footer {
 footer ul {
     display: flex;
     justify-content: flex-end;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 footer ul li {
     padding: 0 10px;
@@ -230,12 +238,6 @@ p {
     position: relative;
 }
 
-.container {
-    padding-left: 2px;
-    padding-top: 60px;
-    padding-right: 2px;
-}
-
 #pricing {
     margin-top: -80px;
     margin-bottom: -80px;
@@ -251,8 +253,6 @@ footer {
 footer ul {
 	display: flex;
     justify-content: center;
-	padding-left: 0px;
-	padding-right: 15px;
 }
 
 a {
