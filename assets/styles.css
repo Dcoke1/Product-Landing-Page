@@ -81,7 +81,7 @@ h2 {
 }
 
 .sub-container {
-    max-width: 960px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
 }
@@ -559,6 +559,10 @@ footer {
 
 @media only screen and (min-width: 768px) {
 
+header {
+    height: 25%;
+}
+
 .logo img {
     width: 45vw;
     margin-right: -20px;
@@ -653,7 +657,90 @@ footer {
     font-size: 10px;
 }
 
+
+@media only screen and (min-width: 1150px) {
+
+.logo img {
+    width: 45vw;
+    margin-right: -20px;
+}
+
+.nav-link {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 22px;
+}
+
+#services {
+    width: 100%;
+    margin-top: 29vw;
+    padding-left: 30px;
+}
+
+#services .icon-logo {
+    height: 0vw;
+    font-size: 20px !important;
+}
+
+#services .subinfo {
+    padding-bottom: 85px;
+}
+
+footer {
+    font-size: 10px;
+}
+
+
+
+@media only screen and (min-width: 1272px) {
+
+.logo img {
+    width: 45vw;
+    margin-right: -20px;
+}
+
+.nav-link {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 22px;
+}
+
+#services {
+    width: 100%;
+    margin-top: 25vw;
+    padding-left: 30px;
+}
+
+#services .icon-logo {
+    height: 0vw;
+    font-size: 20px !important;
+}
+
+#services .subinfo {
+    padding-bottom: 85px;
+}
+
+footer {
+    font-size: 10px;
+}
+
 @media only screen and (min-width: 1440px) {
+
+header {
+    height: 26%;
+}
 
 .logo img {
     width: 45vw;
@@ -665,7 +752,7 @@ h2 {
 }
 
 p {
-    font-size: 12px;
+    font-size: 20px;
 }
 
 #services {
