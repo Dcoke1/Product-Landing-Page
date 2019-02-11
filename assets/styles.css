@@ -227,8 +227,8 @@ h2 {
 
 #services {
     width: 100%;
-    margin-top: 68vw;
-    padding-left: 30px;
+    margin-top: 47vw;
+    padding-left: 20px;
 }
 
 #services .icon-logo {
@@ -241,7 +241,7 @@ h2 {
 }
 
 p {
-	font-size: 9px;
+	font-size: 12px;
 }
 
 .carousel {
@@ -282,8 +282,8 @@ a {
 }
 #services {
     width: 100%;
-    margin-top: 60vw;
-    padding-left: 30px;
+    margin-top: 43vw;
+    padding-left: 15px;
 }
 
 #services .icon-logo {
@@ -293,6 +293,40 @@ a {
 
 p {
     font-size: 11px;
+}
+
+a {
+	font-size: 12px;
+}
+
+footer {
+    font-size: 10px;
+}
+}
+
+ @media only screen and (min-width: 370px) {
+
+.nav-link {
+    font-size: 14px;
+}
+
+.logo img {
+    width: 56vw;
+    margin-right: 3px;
+}
+#services {
+    width: 100%;
+    margin-top: 43vw;
+    padding-left: 15px;
+}
+
+#services .icon-logo {
+	height: 9vw;
+    font-size: 8px !important;
+}
+
+p {
+    font-size: 13px;
 }
 
 a {
@@ -329,7 +363,47 @@ a {
 
 #services {
     width: 100%;
-    margin-top: 55vw;
+    margin-top: 44vw;
+    padding-left: 30px;
+}
+
+#services .icon-logo {
+	height: 6vw;
+    font-size: 9px !important;
+}
+
+footer {
+    font-size: 10px;
+}
+
+
+
+@media only screen and (min-width: 410px) {
+
+.nav-link {
+    font-size: 18px;
+}
+
+.logo img {
+    width: 56vw;
+    margin-right: -20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+	font-size: 13px;
+}
+
+#services {
+    width: 100%;
+    margin-top: 45vw;
     padding-left: 30px;
 }
 
@@ -343,6 +417,42 @@ footer {
 }
 
 }
+
+
+@media only screen and (min-width: 412px) {
+
+.logo img {
+    width: 56vw;
+    margin-right: -20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+	font-size: 14px;
+}
+
+#services {
+    width: 100%;
+    margin-top: 42vw;
+    padding-left: 15px;
+}
+
+#services .icon-logo {
+	height: 6vw;
+    font-size: 10px !important;
+}
+
+footer {
+    font-size: 10px;
+}
+
 
 @media only screen and (min-width: 470px) {
 
@@ -365,7 +475,7 @@ a {
 
 #services {
     width: 100%;
-    margin-top: 45vw;
+    margin-top: 32vw;
     padding-left: 30px;
 }
 
@@ -395,7 +505,7 @@ p {
 
 #services {
     width: 100%;
-    margin-top: 40vw;
+    margin-top: 34vw;
     padding-left: 30px;
 }
 
@@ -604,11 +714,12 @@ footer {
 
 @media only screen and (orientation: landscape) {
   header {
-    height: 40%;
+    height: 27%;
   }
-  #services {
-  	margin-top: 24vw !important; 
-  }
+
+#services {
+    margin-top: 24vw;
 }
+}  
 
 
