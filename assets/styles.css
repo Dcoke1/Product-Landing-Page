@@ -228,7 +228,7 @@ h2 {
 
 #services {
     width: 100%;
-    margin-top: 47vw;
+    margin-top: 67vw;
     padding-left: 20px;
 }
 
@@ -283,7 +283,7 @@ a {
 }
 #services {
     width: 100%;
-    margin-top: 43vw;
+    margin-top: 60vw;
     padding-left: 15px;
 }
 
@@ -317,7 +317,7 @@ footer {
 }
 #services {
     width: 100%;
-    margin-top: 43vw;
+    margin-top: 59vw;
     padding-left: 15px;
 }
 
@@ -404,7 +404,7 @@ a {
 
 #services {
     width: 100%;
-    margin-top: 45vw;
+    margin-top: 53vw;
     padding-left: 30px;
 }
 
@@ -441,7 +441,7 @@ a {
 
 #services {
     width: 100%;
-    margin-top: 42vw;
+    margin-top: 51vw;
     padding-left: 15px;
 }
 
@@ -476,7 +476,7 @@ a {
 
 #services {
     width: 100%;
-    margin-top: 32vw;
+    margin-top: 43vw;
     padding-left: 30px;
 }
 
@@ -506,7 +506,7 @@ p {
 
 #services {
     width: 100%;
-    margin-top: 34vw;
+    margin-top: 40vw;
     padding-left: 30px;
 }
 
@@ -560,7 +560,7 @@ footer {
 @media only screen and (min-width: 768px) {
 
 header {
-    height: 25%;
+    height: 23%;
 }
 
 .logo img {
@@ -584,7 +584,7 @@ p {
 
 #services {
     width: 100%;
-    margin-top: 30vw;
+    margin-top: 35vw;
     padding-left: 30px;
 }
 
@@ -634,12 +634,16 @@ footer {
     margin-right: -20px;
 }
 
+header {
+    height: 16%;
+}
+
 h2 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 p {
-    font-size: 12px;
+    font-size: 20px;
 }
 
 #services {
